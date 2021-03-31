@@ -22,3 +22,26 @@ Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
 
+
+    1. cd Projects/CodingNomads
+    2. mkdir Terminal_testing
+    3.
+        a. touch newFile1.txt newFile2.txt newFile3.txt
+        b. input: pwd
+           output: /Users/zach.bolwerk/Projects/CodingNomads/Terminal_testing
+        c. input: ls
+           output: newFile1.txt	newFile2.txt	newFile3.txt
+    4. ?? No 4? lol
+    5. mkdir newFolder
+    6. cp newFile1.txt newFolder
+    7. mv newFile2.txt newFolder
+    8.
+        a. rm newFile3.txt
+        b. rmdir -r newFolder
+
+
+
+    9. - Not sure how to display that here...
+        a.
+        b.
+        c.
