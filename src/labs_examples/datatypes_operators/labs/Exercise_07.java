@@ -27,7 +27,9 @@ public class Exercise_07 {
         long hours = days * 24;
         long minutes = hours * 60;
         long seconds = minutes * 60;
-        System.out.println("There are " + seconds + " seconds in " + days + " days!");
+        String message = "There are %s seconds in %s days";
+        System.out.println(String.format(message,seconds,days));
+//        System.out.println("There are " + seconds + " seconds in " + days + " days!");
 
     }
 }
