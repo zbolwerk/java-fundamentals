@@ -24,7 +24,7 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
-        long hours = days * 24;
+        long hours = days * 24L;
         long minutes = hours * 60;
         long seconds = minutes * 60;
         String message = "There are %s seconds in %s days";
