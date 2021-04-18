@@ -1,4 +1,4 @@
-# CodingNomads Java Fundamentals Zach's changes go here I guess
+# CodingNomads Java Fundamentals - Zach's changes
 
 This project contains a variety of textbook examples and labs focused on Java labs_examples.fundamentals.
 
