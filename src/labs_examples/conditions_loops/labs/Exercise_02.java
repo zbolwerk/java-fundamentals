@@ -21,7 +21,7 @@ public class Exercise_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter in a number between 1 and 7: ");
+        System.out.println("Please enter in a number for the day of the week: ");
         int number = scanner.nextInt();
         // 1) create scanner (don't forget to import Scanner!)
         // 2) prompt user
