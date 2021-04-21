@@ -23,18 +23,23 @@ package labs_examples.conditions_loops.labs;
 public class Exercise_11 {
     public static void main(String[] args) {
         int count = 1;
-        int addNumber = 1;
         while (count <= 10) {
             for (int i = 1; i <= 10; i++) {
-                if (addNumber < 10) {
-                    System.out.print(addNumber + "  |");
-                    addNumber++;
-                } else if (addNumber >= 10 && addNumber < 100) {
-                    System.out.print(addNumber + " |");
-                    addNumber++;
+                int multiply = i * count;
+                if (count > 1) {
+                    if (i < 10) {
+                        if (multiply >= 10) {
+                            System.out.print(multiply + "|");
+                        } else {
+                            System.out.print(multiply + " |");
+                        }
+                    } else if (multiply == 100) {
+                        System.out.print(multiply + "|");
+                    } else {
+                        System.out.print(multiply + " |");
+                    }
                 } else {
-                    System.out.print(addNumber + "|");
-                    addNumber++;
+                    System.out.print(i + " |");
                 }
             }
             System.out.println();
