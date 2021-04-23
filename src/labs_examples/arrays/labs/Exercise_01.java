@@ -15,14 +15,14 @@ public class Exercise_01 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter in 10 numbers with each number followed by the enter key.");
         int[] nums = new int[10];
         double numberSum = 0;
+
+        System.out.println("Please enter in 10 numbers with each number followed by the enter key.");
 
         for (int i = 0; i < nums.length; i++) {
             nums[i] = scanner.nextInt();
         }
-
         for (int sum : nums) {
             numberSum = numberSum + sum;
         }
