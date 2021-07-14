@@ -45,4 +45,14 @@ public class Cockpit {
     public void setDoorPressurized(boolean doorPressurized) {
         isDoorPressurized = doorPressurized;
     }
+
+    @Override
+    public String toString() {
+        return "Cockpit{" +
+                "hasCaptain=" + hasCaptain +
+                ", hasCoPilot=" + hasCoPilot +
+                ", numberOfButtons=" + numberOfButtons +
+                ", isDoorPressurized=" + isDoorPressurized +
+                '}';
+    }
 }

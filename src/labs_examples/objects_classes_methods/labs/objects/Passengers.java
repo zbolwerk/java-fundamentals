@@ -44,4 +44,14 @@ public class Passengers {
     public void setNumberOfAnimals(int numberOfAnimals) {
         this.numberOfAnimals = numberOfAnimals;
     }
+
+    @Override
+    public String toString() {
+        return "Passengers{" +
+                "numberOfPassengers=" + numberOfPassengers +
+                ", numberOfFlightAttendants=" + numberOfFlightAttendants +
+                ", numberOfChildren=" + numberOfChildren +
+                ", numberOfAnimals=" + numberOfAnimals +
+                '}';
+    }
 }

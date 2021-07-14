@@ -34,4 +34,13 @@ public class Cargo {
     public void setNumberOfOddLuggage(double numberOfOddLuggage) {
         this.numberOfOddLuggage = numberOfOddLuggage;
     }
+
+    @Override
+    public String toString() {
+        return "Cargo{" +
+                "hasLuggage=" + hasLuggage +
+                ", numberOfSuitcases=" + numberOfSuitcases +
+                ", numberOfOddLuggage=" + numberOfOddLuggage +
+                '}';
+    }
 }

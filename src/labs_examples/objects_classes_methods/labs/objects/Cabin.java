@@ -74,4 +74,17 @@ public class Cabin {
     public void setNumberOfOverheadCompartments(double numberOfOverheadCompartments) {
         this.numberOfOverheadCompartments = numberOfOverheadCompartments;
     }
+
+    @Override
+    public String toString() {
+        return "Cabin{" +
+                "hasPassengers=" + hasPassengers +
+                ", hasFlightAttendants=" + hasFlightAttendants +
+                ", numberOfEmptySeats=" + numberOfEmptySeats +
+                ", numberOfFullSeats=" + numberOfFullSeats +
+                ", numberOfSeats=" + numberOfSeats +
+                ", numberOfIsles=" + numberOfIsles +
+                ", numberOfOverheadCompartments=" + numberOfOverheadCompartments +
+                '}';
+    }
 }
