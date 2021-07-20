@@ -1,9 +1,9 @@
 package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
 
 public interface Animal {
-    public boolean eat();
+    public void eat();
 
-    public void sleep();
+    public boolean sleep();
 
     public void movement();
 

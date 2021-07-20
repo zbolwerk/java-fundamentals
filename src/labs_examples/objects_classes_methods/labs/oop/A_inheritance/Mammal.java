@@ -2,23 +2,23 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
 
 public class Mammal implements Animal {
 
-    protected String hairType;
+    protected String hairColor;
     protected boolean isHasLungs;
 
-    public Mammal(String hairType, boolean isHasLungs) {
-        this.hairType = hairType;
+    public Mammal(String hairColor, boolean isHasLungs) {
+        this.hairColor = hairColor;
         this.isHasLungs = isHasLungs;
     }
 
-
     @Override
-    public boolean eat() {
-        return true;
+    public void eat() {
+        System.out.println("Mammal is eating.");
     }
 
     @Override
-    public void sleep() {
+    public boolean sleep() {
         System.out.println("Mammal is sleeping.");
+        return false;
     }
 
     @Override
@@ -26,12 +26,12 @@ public class Mammal implements Animal {
         System.out.println("Mammal is on the move.");
     }
 
-    public String getHairType() {
-        return hairType;
+    public String getHairColor() {
+        return hairColor;
     }
 
-    public void setHairType(String hairType) {
-        this.hairType = hairType;
+    public void setHairColor(String hairColor) {
+        this.hairColor = hairColor;
     }
 
     public boolean isHasLungs() {
