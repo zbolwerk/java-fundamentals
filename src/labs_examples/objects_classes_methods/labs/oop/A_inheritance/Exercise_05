@@ -1,7 +1,9 @@
 
 Without running the code below, please tell me what will print. Why?
 
-
+Nothing will print out since the memory is only storing the data but there
+is nothing that is being called to do anything with the data so it is only being
+stored in memory.
 
 
 public class InheritanceTest

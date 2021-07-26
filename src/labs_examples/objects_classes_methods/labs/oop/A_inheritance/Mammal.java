@@ -10,12 +10,12 @@ public class Mammal implements Animal {
         this.isHasLungs = isHasLungs;
     }
 
-    @Override
+//    @Override
     public void eat() {
         System.out.println("Mammal is eating.");
     }
 
-    @Override
+//    @Override
     public boolean sleep() {
         System.out.println("Mammal is sleeping.");
         return false;
