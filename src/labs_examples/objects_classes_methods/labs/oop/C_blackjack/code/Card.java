@@ -20,7 +20,7 @@ public class Card {
     public String toString() {
         char[] suits = {'♠', '♦', '♥', '♣'};
         String[] cardValues = {null, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
-        return cardValues[this.cardValue] + " of " + suits[this.suit];
+        return cardValues[this.cardValue] + " " + suits[this.suit];
     }
 
 
