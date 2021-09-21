@@ -18,14 +18,16 @@ public class Deck {
     }
 
     public void deal(Player player) {
-        int min = 1;
+//        int min = 1;
         int max = 52;
-        int randomCard = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int randomCard = (int)Math.floor(Math.random()*max);
 
         while (usedCards.contains((randomCard))) {
-            randomCard = (int)Math.floor(Math.random()*(max-min+1)+min);
+            randomCard = (int)Math.floor(Math.random()*max);
         }
         player.hand.cards.add(cards[randomCard]);
+//        player.hand.handValue;
+        usedCards.add(randomCard);
 
 
     }
